@@ -4,7 +4,7 @@ This is a minimalist staking smart contract, written with the use of the same st
 Read more about it [here](https://docs.synthetix.io/integrations/staking).
 
 
-Stakers get rewarded with my very own ICO called AtlanteanNotes(ATN) in exchange for how much ETH they have staked. Read more about it in the link above.
+Stakers get rewarded with my very own Initial Coin Offering called AtlanteanNotes(ATN) in exchange for how much ETH they have staked. Read more about it in the link above.
 
 ## INSTALLATION
   i. Clone the repo
@@ -16,7 +16,7 @@ Stakers get rewarded with my very own ICO called AtlanteanNotes(ATN) in exchange
   npm install
   ```
   
- Deploy the contract to localhost with
+ Deploy the contract to localhost
  ```
  npx hardhat node
  ```
@@ -26,3 +26,11 @@ Stakers get rewarded with my very own ICO called AtlanteanNotes(ATN) in exchange
 ## ACKNOWLEDGEMENTS
 
 Shout out to @patrickalphac
+
+## Contact details
+
+Author - Jamal The Atlantean                                                                                                                           
+Reach me on the blue [twitter](https://twitter.com/ThatAtlantean) OR
+Send me a mail to my [gmail](https://gmail.com/jamaltheatlantean@gmail.com)
+
+Project Link: [https://github.com/jamaltheatlantean/DeFi-Staking](https://github.com/jamaltheatlantean/DeFi-Staking])
