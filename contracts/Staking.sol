@@ -92,12 +92,10 @@ contract Staking {
         if (!success){
             revert Staking__TransferFailed();
         }
-        // how much do tokenStakers get?
         //
         // contract emit x tokens/s
         // sends tokens to all tokenStakers
         //
-        // contract generates 100 tokens/s
         // staked tokens: 50 staked tokens, 30 staked tokens, 20 staked tokens
         // reward: 50 staked tokens, 30 staked tokens, 20 staked tokens
         //
