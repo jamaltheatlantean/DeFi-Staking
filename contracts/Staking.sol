@@ -97,7 +97,6 @@ contract Staking {
         //
         // 100 more tokens staked
         // staked: 100, 50, 30, 20
-        // rewards: 50, 25, 15, 10
 
     }
 }
