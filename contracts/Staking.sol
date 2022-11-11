@@ -66,11 +66,9 @@ contract Staking {
         // keep track of how much token user has staked
         // keep track of how much token user has
         // transfer the tokens to this contract
-        //
         // increase how much user is staking from how much already staked
         s_balances[msg.sender] = s_balances[msg.sender] + amount;
         s_totalSupply = s_totalSupply + amount;
-        // emit event
         bool success = s_stakingToken.transferFrom(msg.sender, address(this), amount);
         if(!success) {
             revert Staking__TransferFailed();
