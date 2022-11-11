@@ -90,8 +90,6 @@ contract Staking {
         if (!success){
             revert Staking__TransferFailed();
         }
-        //
-        //
         // staked tokens: 50 staked tokens, 30 staked tokens, 20 staked tokens
         // reward: 50 staked tokens, 30 staked tokens, 20 staked tokens
         //
