@@ -93,7 +93,6 @@ contract Staking {
             revert Staking__TransferFailed();
         }
         //
-        // contract emit x tokens/s
         // sends tokens to all tokenStakers
         //
         // staked tokens: 50 staked tokens, 30 staked tokens, 20 staked tokens
