@@ -16,10 +16,11 @@ Stakers get rewarded with my very own Initial Coin Offering called AtlanteanNote
   npm install
   ```
   
- Deploy the contract to localhost
+To run the contract on localhost, use;
  ```
  npx hardhat node
  ```
+ which will compile and deploy the contract and run a local node on your PC or laptop.
 
 
 
