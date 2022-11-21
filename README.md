@@ -31,7 +31,7 @@ Shout out to @patrickalphac
 ## Contact details
 
 Author - Jamal The Atlantean                                                                                                                           
-Reach me on the blue [twitter](https://twitter.com/ThatAtlantean) OR
+Reach me on the [twitter](https://twitter.com/ThatAtlantean) OR
 Send me a mail to my [gmail](https://gmail.com/jamaltheatlantean@gmail.com)
 
 Project Link: [https://github.com/jamaltheatlantean/DeFi-Staking](https://github.com/jamaltheatlantean/DeFi-Staking])
