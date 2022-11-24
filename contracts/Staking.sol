@@ -126,7 +126,7 @@ contract Staking {
         if (!success) {
             revert Staking__TransferFailed();
         }
-        // how much do tokenStakers get?
+        // how would tokenStakers get?
         //
         // contract emit 'x' tokens/s || token per second
         // sends tokens to all tokenStakers
