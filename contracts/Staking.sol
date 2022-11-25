@@ -145,3 +145,4 @@ contract Staking {
         duration = _duration;
     }
 }
+
