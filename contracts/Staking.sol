@@ -144,26 +144,4 @@ contract Staking {
         require(finishAt < block.timestamp, "warning: duration not finished");
         duration = _duration;
     }
-
-    function notifyRewardAmount(uint _amount)
-        external
-        onlyOwner
-        updateReward(address(0))
-    {
-        if (block.timestamp >= finishAt) {
-            rewardRate = _amount / duration;
-        } else {
-            uint remainingRewards = (finishAt - block.timestamp) * rewardRate;
-            rewardRate = (_amount + remainingRewards) / duration;
-        }
-
-        require(rewardRate > 0, "warning: rewardRate = 0");
-        require(
-            rewardRate * duration <= s_rewardToken.balanceOf(address(this)),
-            "warning: rewardAmount > balance"
-        );
-
-        finishAt = block.timestamp + duration;
-        updatedAt = block.timestamp;
-    }
 }
