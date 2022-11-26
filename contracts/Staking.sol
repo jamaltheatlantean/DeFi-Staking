@@ -37,6 +37,7 @@ contract Staking {
     // minimum of last updated time and reward finish time
     uint public s_lastUpdateTime;
 
+    // MODIFIERS
     modifier onlyOwner() {
         require(msg.sender == owner, "warning: not owner");
         _;
@@ -56,7 +57,7 @@ contract Staking {
         }
         _;
     }
-
+    
     constructor(address stakingToken, address rewardToken) {
         owner = msg.sender;
         s_stakingToken = IERC20(stakingToken);
