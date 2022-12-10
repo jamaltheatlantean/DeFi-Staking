@@ -1,6 +1,6 @@
 ## ABOUT THE PROJECT
 
-This is a minimalist staking smart contract, written with the use of the same staking and rewarding logic as synthetix.io.
+This is a minimalist staking smart contract, written with thesame logic of staking crypto and rewarding logic as synthetix.io.
 Read more about it [here](https://docs.synthetix.io/integrations/staking).
 
 
